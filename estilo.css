@@ -51,22 +51,24 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 30px;
+    height: 10%;
     font-family: 'Roboto' , sans-serif;
-    color: rgb(247, 247, 247);
-    background: #ed3232;
-    font-size: 15px;
+    color: rgb(245, 245, 245);
+    background: #017bab;
+    font-size: 16px;
     font-weight: 500;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
     transition: .3s ease all;
-    border-radius: 5px;   
-    margin: auto;
+    border-radius: 5px;
+    text-decoration: none;
 }
 .boton:hover{
     background: rgba(179, 97, 97, 0.548);
 }
+
+
 
 .reg_admin p{
     height: 40px;
@@ -75,13 +77,13 @@ body {
     margin-top: 20px;
 }
 
-.reg_admin a {
+.problemas {
     color: rgb(255, 0, 0);
     text-decoration: none;
     font-size: 15px;
     margin-top: 20px;
 }
 
-.reg_admin  a:hover {
+.problemas:hover {
     text-decoration: underline;
 }
